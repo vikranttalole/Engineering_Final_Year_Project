@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/busss"
+    
+    tools:context=".StariourneyActivity" >
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:alpha="0.7" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/driver"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"            
+            android:text="YOUR JOURNEY DETAILS" 
+            android:background="#805B15"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"  
+            android:text="BUS NUMBER"
+            android:background="#805B15" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:textSize="18sp"  
+            android:layout_marginTop="16dp"
+            android:text="START POINT" 
+            android:background="#805B15"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"  
+            android:text="DISTINATION POINT"
+            android:background="#805B15" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"  
+            android:text="BUS NUMBER AND ARRIVAL TIME"
+            android:background="#805B15" />
+
+        <Button
+            android:id="@+id/startbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="START JOURNEY"
+            android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+            android:background="#246068" 
+            />
+
+        
+
+    </LinearLayout>
+
+</RelativeLayout>

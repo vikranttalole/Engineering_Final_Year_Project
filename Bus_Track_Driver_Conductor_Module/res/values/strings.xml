@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maha-Driver</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Maha-Driver</string>
+    <string name="title_activity_dashboard">Maha-Driver</string>
+    <string name="title_activity_stariourney">SMaha-Driver</string>
+    <string name="busrout">Choose a planet</string>
+    <string name="busnospin">Choose a planet</string>
+
+    <string-array name="busnospin">
+        <item>Bus_101</item>
+        <item>Bus_102</item>
+        <item>Bus_103</item>
+        <item>Bus_104</item>
+        <item>Bus_105</item>
+        <item>Bus_106</item>
+        <item>Bus_107</item>
+        <item>Bus_108</item>
+    </string-array>
+    <string-array name="busrout">
+        <item>CBS-Nashik RD</item>
+        <item>CBS-OZER</item>
+        <item>CBS-Patherdi</item>
+        <item>CBS-Mahatmanager</item>
+        <item>CBS-Satpur</item>
+    </string-array>
+
+    <string name="source">Route</string>
+
+    <string-array name="source">
+        <item>CBS-Nashik RD</item>
+        <item>CBS-OZER</item>
+        <item>CBS-Patherdi</item>
+        <item>CBS-Mahatmanager</item>
+        <item>CBS-Satpur</item>
+    </string-array>
+
+    <string name="title_activity_main">Maha-Driver</string>
+    <string name="title_activity_gps">Maha-Driver</string>
+    <string name="title_activity_startj">Maha-Driver</string>
+
+</resources>

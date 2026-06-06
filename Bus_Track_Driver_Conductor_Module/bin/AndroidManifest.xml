@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bustrack"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    
+<uses-permission android:name="android.permisssion.ACCESS_COARSE_LOCATION"></uses-permission>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/asdf"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.bustrack.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.bustrack.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bustrack.DashboardActivity"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+        <activity
+            android:name="com.example.bustrack.StariourneyActivity"
+            android:label="@string/title_activity_stariourney" >
+        </activity>
+        <activity
+            android:name="com.example.bustrack.GPSActivity"
+            android:label="@string/title_activity_gps" >
+        </activity>
+        <activity
+            android:name="com.example.bustrack.StartjActivity"
+            android:label="@string/title_activity_startj" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/busss"
+    tools:context=".DashboardActivity" >
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:alpha="0.7" />
+    <Button
+        android:id="@+id/Stopjbtn"
+        style="@style/AppBaseTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Startjbtn"
+        android:layout_alignRight="@+id/Startjbtn"
+        android:layout_below="@+id/Startjbtn"
+        android:layout_marginTop="59dp"
+        android:text="STOP JOURNEY" />
+
+    <Button
+        android:id="@+id/Startjbtn"
+        style="@style/AppBaseTheme"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         
+        android:layout_marginTop="220dp"
+
+         
+        android:background="#ebe232"
+       android:text="START JOURNEY" />
+
+</RelativeLayout>
